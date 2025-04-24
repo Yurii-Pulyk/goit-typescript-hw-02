@@ -94,7 +94,6 @@ function App() {
     }
   };
 
-  // Функція для переходу до попереднього фото
   const prevImage = (): void => {
     const currentIndex = photos.findIndex(photo => photo === selectedPhoto);
     if (currentIndex > 0) {
