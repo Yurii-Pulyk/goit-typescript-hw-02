@@ -87,7 +87,6 @@ function App() {
     }
   };
 
-  // Функція для переходу до наступного фото
   const nextImage = (): void => {
     const currentIndex = photos.findIndex(photo => photo === selectedPhoto);
     if (currentIndex < photos.length - 1) {
