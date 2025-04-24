@@ -48,7 +48,7 @@ function App() {
     setSelectedPhoto(null);
   };
 
-  // Функція для отримання фотографій
+  // Функція для отримання фото
   const fetchPhotos = async (
     searchQuery: string,
     page: number
