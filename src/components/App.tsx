@@ -31,7 +31,6 @@ function App() {
     await fetchPhotos(searchQuery, 1);
   };
 
-  // Функція для завантаження наступних фотографій
   const handleLoadMore = async (): Promise<void> => {
     const nextPage = page + 1;
     setPage(nextPage);
