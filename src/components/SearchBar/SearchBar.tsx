@@ -1,6 +1,6 @@
 import { Formik, Form, Field } from 'formik';
 import toast from 'react-hot-toast';
-import React from 'react';
+
 interface SearchBarProps {
   onSubmit: (query: string) => void;
   initialQuery: string;

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import { fetchPhoto } from './SearchService';
-import React from 'react';
 
 import SearchBar from './SearchBar/SearchBar';
 import ImageGallery from './ImageGallery/ImageGallery';

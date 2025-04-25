@@ -1,5 +1,5 @@
 import { Photo } from '../../types';
-import React from 'react';
+
 interface ImageCardProps {
   photo: Photo;
   onImageClick: (photo: Photo) => void;

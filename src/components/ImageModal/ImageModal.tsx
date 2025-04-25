@@ -1,4 +1,3 @@
-import React from 'react';
 import Modal from 'react-modal';
 import { IoIosClose, IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Photo } from '../../types';
